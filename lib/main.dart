@@ -1,10 +1,15 @@
 import 'package:elearning/presentation/route/app_routes.dart';
 import 'package:elearning/presentation/screens/welcome/welcome.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
 import 'di/injection.dart';
 
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  await Firebase.initializeApp();
+
   configureDependencies();
   runApp(const MyApp());
 }

@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "995428819759",
+    "project_id": "e-learning-app-de787",
+    "storage_bucket": "e-learning-app-de787.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995428819759:android:b5a49ab22ba18f8e1f77da",
+        "android_client_info": {
+          "package_name": "com.phucpt.elearning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995428819759-bmciv4pup6scamjp7rce7uk9d3q9pqs2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGziTcyfdgGgpx0fWhkrh8fPh0MmsbcOc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995428819759-bmciv4pup6scamjp7rce7uk9d3q9pqs2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "995428819759-lrtibbfkt1en71tib6rdbljrknqf7btb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.phucpt.elearning"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
